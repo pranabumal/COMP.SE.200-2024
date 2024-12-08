@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1733691015710" clover="3.2.0">
+  <project timestamp="1733691015711" name="All files">
+    <metrics statements="203" coveredstatements="161" conditionals="237" coveredconditionals="153" methods="36" coveredmethods="28" elements="476" coveredelements="342" complexity="0" loc="203" ncloc="203" packages="2" files="34" classes="34"/>
+    <package name="src">
+      <metrics statements="107" coveredstatements="88" conditionals="141" coveredconditionals="104" methods="22" coveredmethods="19"/>
+      <file name="add.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/add.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+      <file name="capitalize.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/capitalize.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+      <file name="divide.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/divide.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+      <file name="isArguments.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isArguments.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="isArrayLike.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isArrayLike.js">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="27" count="16" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="isBoolean.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isBoolean.js">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="20" count="4" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="isBuffer.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isBuffer.js">
+        <metrics statements="6" coveredstatements="6" conditionals="17" coveredconditionals="14" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="isEmpty.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isEmpty.js">
+        <metrics statements="14" coveredstatements="13" conditionals="19" coveredconditionals="17" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="46" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="49" count="16" type="cond" truecount="9" falsecount="0"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="54" count="8" type="stmt"/>
+        <line num="55" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="56" count="4" type="stmt"/>
+        <line num="58" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+      </file>
+      <file name="isLength.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isLength.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="29" count="31" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="isObject.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isObject.js">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="isObjectLike.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isObjectLike.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="isSymbol.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isSymbol.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="19" count="29" type="stmt"/>
+        <line num="20" count="29" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="isTypedArray.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/isTypedArray.js">
+        <metrics statements="5" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="memoize.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/memoize.js">
+        <metrics statements="13" coveredstatements="13" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="44" count="13" type="cond" truecount="5" falsecount="0"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="48" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="13" type="stmt"/>
+        <line num="51" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="54" count="9" type="stmt"/>
+        <line num="55" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="9" type="stmt"/>
+        <line num="58" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="8" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+      <file name="slice.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/slice.js">
+        <metrics statements="16" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="toFinite.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/toFinite.js">
+        <metrics statements="9" coveredstatements="9" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="29" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="11" type="stmt"/>
+        <line num="33" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="9" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="toInteger.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/toInteger.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="30" count="14" type="stmt"/>
+        <line num="32" count="14" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="toNumber.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/toNumber.js">
+        <metrics statements="18" coveredstatements="17" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="45" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="7" type="stmt"/>
+        <line num="48" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="toString.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/toString.js">
+        <metrics statements="9" coveredstatements="9" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="28" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="39" count="8" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="upperFirst.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/upperFirst.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src..internal">
+      <metrics statements="96" coveredstatements="73" conditionals="96" coveredconditionals="49" methods="14" coveredmethods="9"/>
+      <file name="asciiToArray.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/asciiToArray.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="baseToNumber.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/baseToNumber.js">
+        <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="15" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="baseToString.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/baseToString.js">
+        <metrics statements="10" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+      <file name="castSlice.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/castSlice.js">
+        <metrics statements="3" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+      <file name="createCaseFirst.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/createCaseFirst.js">
+        <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+      <file name="createMathOperation.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/createMathOperation.js">
+        <metrics statements="13" coveredstatements="8" conditionals="16" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="2" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+      </file>
+      <file name="freeGlobal.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/freeGlobal.js">
+        <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="cond" truecount="4" falsecount="0"/>
+      </file>
+      <file name="getTag.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/getTag.js">
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="17" type="stmt"/>
+      </file>
+      <file name="hasUnicode.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/hasUnicode.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="isPrototype.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/isPrototype.js">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="1"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="nodeTypes.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/nodeTypes.js">
+        <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="17" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="root.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/root.js">
+        <metrics statements="3" coveredstatements="3" conditionals="12" coveredconditionals="6" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="3"/>
+      </file>
+      <file name="stringToArray.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/stringToArray.js">
+        <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="unicodeToArray.js" path="/Users/digitalaxis/Documents/Tampere Univeristy/Software testing/Testing Cover ALL/COMP.SE.200-2024/src/.internal/unicodeToArray.js">
+        <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+  </project>
+</coverage>
