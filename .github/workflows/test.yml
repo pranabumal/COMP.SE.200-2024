@@ -30,10 +30,11 @@ jobs:
 
     # Step 4: Run tests (allow failure but continue the job)
     - name: Run tests and generate coverage report with Jest
-      run: npm run coverage || true  # Ensure the job doesn't fail if tests fail
+      run: npm run coverage
+      continue-on-error: true # Allow tests to fail
 
     # Step 5: Collect and Upload Coverage to Coveralls
     - name: Upload coverage to Coveralls
-      run: npx coveralls < coverage/lcov.info || echo "Coveralls upload failed"
+      run: npx coveralls < coverage/lcov.info
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
