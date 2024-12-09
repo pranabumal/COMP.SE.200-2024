@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/pranabumal/COMP.SE.200-2024/badge.svg?branch=main)](https://coveralls.io/github/pranabumal/COMP.SE.200-2024?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/pranabumal/COMP.SE.200-2024/badge.svg)](https://coveralls.io/github/pranabumal/COMP.SE.200-2024)
 
 # Student template
 
