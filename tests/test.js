@@ -22,7 +22,10 @@ describe("Library Tests", () => {
       expect(eq(5, 3)).toBe(false);
     });
 
-     
+    it("should return true for equal objects with same properties", () => {
+      expect(eq({a: 1}, {a: 1})).toBe(true);
+    });
+
     it("should return false for unequal objects", () => {
       expect(eq({a: 1}, {b: 2})).toBe(false);
     });
@@ -76,6 +79,13 @@ describe("Library Tests", () => {
       expect(filter([1, 2, 3, 4], x => x % 2 === 0)).toEqual([2, 4]);
     });
 
+    it("should return empty array if no elements match the condition", () => {
+      expect(filter([1, 3, 5], x => x % 2 === 0)).toEqual([]);
+    });
+
+    it("should handle an empty array", () => {
+      expect(filter([], x => x > 0)).toEqual([]);
+    });
   });
 
   // Map.js
@@ -149,9 +159,16 @@ describe("Library Tests", () => {
 
   // Clamp.js
   describe("clamp", () => {
+    it("should return the number if it is within the range", () => {
+      expect(clamp(5, 1, 10)).toBe(5);
+    });
 
     it("should return the lower bound if the number is less than the range", () => {
       expect(clamp(0, 1, 10)).toBe(1);
+    });
+
+    it("should return the upper bound if the number is greater than the range", () => {
+      expect(clamp(15, 1, 10)).toBe(10);
     });
   });
 
