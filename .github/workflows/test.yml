@@ -29,8 +29,8 @@ jobs:
       run: npm install
 
     # Step 4: Run tests (allow failure but continue the job)
-    - name: Run tests with Jest
-      run: npm test || true  # Ensure the job doesn't fail if tests fail
+    - name: Run tests and generate coverage report with Jest
+      run: npm run coverage || true  # Ensure the job doesn't fail if tests fail
 
     # Step 5: Collect and Upload Coverage to Coveralls
     - name: Upload coverage to Coveralls
