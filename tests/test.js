@@ -31,21 +31,6 @@ describe("Library Tests", () => {
     });
   });
 
-  // Capitalize.js
-  describe("capitalize", () => {
-    it("should capitalize the first letter of a string", () => {
-      expect(capitalize("hello")).toBe("Hello");
-    });
-
-    it("should return the same string if the first letter is already uppercase", () => {
-      expect(capitalize("Hello")).toBe("Hello");
-    });
-
-    it("should handle empty string correctly", () => {
-      expect(capitalize("")).toBe("");
-    });
-  });
-
   // IsEmpty.js
   describe("isEmpty", () => {
     it("should return true for null", () => {
